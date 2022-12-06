@@ -1,0 +1,11 @@
+/.vscode/*
+node_modules
+*.log
+
+.env*
+dev.js
+
+gcp-file-storage.json
+gcp-bigquery.json
+gcp-*.json
+
