@@ -8,3 +8,5 @@ npm i bcrypt jsonwebtoken cookie-parser --save
 (package.json 안에 "scripts": {
 "start": "node index.js",
 "dev": "nodemon index.js", ...} 넣기)
+
+npm i concurrently --save

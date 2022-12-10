@@ -1,3 +1,14 @@
+# 설치 패키지
+
+```
+npm i http-proxy-middleware concurrently --save
+npm i react-router-dom axios --save
+npm i antd --save
+npm i redux react-redux redux-promise redux-thunk --save
+```
+
+<br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +79,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+```
+
+```

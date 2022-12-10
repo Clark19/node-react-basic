@@ -28,6 +28,11 @@ mongoose
 
 app.get("/", (req, res) => res.send("hello"));
 
+app.get("/api/hello", (req, res) => {
+  console.log(2222);
+  res.send("Hello");
+});
+
 app.post("/api/users/register", (req, res) => {
   // 회원 가입 할때 필요한 정보들을 client에서 가져오면
   // 그것들을 데이터베이스에 넣음.
