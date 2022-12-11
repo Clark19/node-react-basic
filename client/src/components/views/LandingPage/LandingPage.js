@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import axios from "axios";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function LandingPage() {
   const navigate = useNavigate();

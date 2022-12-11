@@ -29,7 +29,6 @@ mongoose
 app.get("/", (req, res) => res.send("hello"));
 
 app.get("/api/hello", (req, res) => {
-  console.log(2222);
   res.send("Hello");
 });
 
@@ -77,9 +76,9 @@ app.get("/api/users/auth", auth, (req, res) => {
     isAuth: true,
     email: req.user.email,
     name: req.user.name,
-    lastname: req.usr.lastname,
-    role: req.user.role,
-    image: req.user.image,
+    // lastname: req.usr.lastname,
+    // role: req.user.role,
+    // image: req.user.image,
   });
 });
 

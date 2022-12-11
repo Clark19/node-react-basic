@@ -2,6 +2,7 @@
 
 ```
 npm i http-proxy-middleware concurrently --save
+(원본 강의에선 react router 를 v4인가 v5를 사용했지만, 전 실습시 최신버전인 v6을 사용해서 그로인한 코드상의 차이 발생함. )
 npm i react-router-dom axios --save
 npm i antd --save
 npm i redux react-redux redux-promise redux-thunk --save
